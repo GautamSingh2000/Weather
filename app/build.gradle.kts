@@ -85,14 +85,12 @@ dependencies {
     implementation(libs.lifecycle.livedata.ktx)
 
     //coil
-    implementation(libs.coil)
+    implementation("io.coil-kt:coil-compose:2.7.0")
 
     //OkHttp
-    implementation(libs.okhttp.bom)
-
-    // define any required OkHttp artifacts without version
-    implementation("com.square.okhttp3:okhttp")
-    implementation("com.squareup.okhttp3:logging-interceptor")
+    implementation(platform("com.squareup.retrofit2:retrofit-bom:2.11.0"))
+    implementation("com.squareup.retrofit2:retrofit")
+    implementation("com.squareup.retrofit2:converter-gson")
 
 
     // retrofit
@@ -106,4 +104,7 @@ dependencies {
     annotationProcessor( libs.androidx.room.compiler)
     // To use Kotlin annotation processing tool (kapt)
     kapt( libs.androidx.room.compiler)
+
+    // glide
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 }

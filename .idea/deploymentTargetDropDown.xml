@@ -2,8 +2,27 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="app">
+      <entry key="AppBar">
         <State />
+      </entry>
+      <entry key="DisplaySplashScreen">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="SERIAL_NUMBER" />
+                  <value value="R38MA09K5LN" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-09-17T09:52:18.580549200Z" />
+        </State>
       </entry>
     </value>
   </component>
